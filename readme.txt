@@ -4,7 +4,7 @@ Tags: frontend,media,streaming,aria,mediaelementjs,html5,video,audio,playback,sp
 Requires at least: 4.0
 Tested up to: 5.5.1
 Requires PHP: 7.1
-Stable tag: 1.1.7
+Stable tag: 1.1.8
 License: GPL-3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -57,6 +57,9 @@ Please feel free to [suggest](https://github.com/CODESIGN2/media-playback-speed/
 Download and extract the zip file or clone this repo to your WordPress plugins directory. Alternatively use the plugin directory to find and install this plugin.
 
 == Changelog ==
+= 1.1.8 =
+Spell Daron name correctly in the graphics :facepalm:
+
 = 1.1.7 =
 * Plugin Directory Graphics - About time it got some. Better contributions welcome.
 

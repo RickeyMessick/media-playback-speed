@@ -3,7 +3,7 @@
  * Plugin Name: Media Playback Speed
  * Description: Appends playback buttons to the Audio Player, Video Player & PLaylist shortcodes. Based on original by Daron Spence.
  * Author: LewisCowles
- * Version: 1.1.7
+ * Version: 1.1.8
  */
 
 add_action( 'wp_enqueue_scripts', function() {
@@ -11,7 +11,7 @@ add_action( 'wp_enqueue_scripts', function() {
 		'cd2-media-playback-speed-js',
 		plugins_url( 'playback-speed.js', __FILE__ ),
 		[],
-		'1.1.7',
+		'1.1.8',
 		true
 	);
 }, 1, 100);
