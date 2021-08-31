@@ -34,6 +34,21 @@ A clear and concise description of what you expected to happen.
 
 If applicable, add screenshots to help explain your problem.
 
+**Files**
+
+<details>
+<summary>If you are running a service where you cannot provide a public url, without login details; please `click-to-expand` instructions for sending snapshots of complete web pages.</summary>
+
+Please attach a zip file containing a `Webpage, Complete` saved page. See the attached screenshot from Google Chrome
+
+![image](https://user-images.githubusercontent.com/2605791/131392883-8816c39c-93d4-4bdf-a1f2-2d73837ae6a5.png)
+
+Webpage, Complete automatically gets all the CSS, JS, Iamges; and you can then zip the folder and attach.
+ 
+> Care should be taken to ensure nothing protected, sensitive, bigoted or harmful is included in the upload.
+ 
+</details>
+
 **Desktop (please complete the following information):**
 
  - OS: [e.g. iOS]
