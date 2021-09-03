@@ -2,9 +2,9 @@
 Contributors: LewisCowles,daronspence
 Tags: frontend,media,streaming,aria,mediaelementjs,html5,video,audio,playback,speed,cd2,lewiscowles,codesign2,shortcode,playlist
 Requires at least: 4.0
-Tested up to: 5.5.1
-Requires PHP: 7.1
-Stable tag: 1.1.9
+Tested up to: 5.8
+Requires PHP: 7.2
+Stable tag: 1.2.0
 License: GPL-3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -57,6 +57,9 @@ Please feel free to [suggest](https://github.com/CODESIGN2/media-playback-speed/
 Download and extract the zip file or clone this repo to your WordPress plugins directory. Alternatively use the plugin directory to find and install this plugin.
 
 == Changelog ==
+= 1.2.0 =
+Trying out different selector, which seems to resolve double-click for audio issues
+
 = 1.1.9 =
 More graphics iteration... This time to honestly reflect that 2x is the maximum currently provided
 
