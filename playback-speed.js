@@ -35,11 +35,11 @@
     [].slice.call( document.querySelectorAll( 'audio,video' ) ).forEach( function(elem) {
         // when media is loaded persist the playback speed currently selected
         elem.addEventListener('loadedmetadata', function(e) {
-            var playlist = e.target.closest('.wp-playlist');
+            var wpPlayer = e.target.closest('.mejs-container');
             var activeSpeed, rate;
-            if(playlist) {
+            if(wpPlayer) {
                 // WordPress Playlist state restore selected speed
-                activeSpeed = playlist.querySelector('.mejs-container .playback-rate-button.mejs-active');
+                activeSpeed = wpPlayer.querySelector('.playback-rate-button.mejs-active');
                 rate = activeSpeed.dataset.value;
             } else {
                 // Any media-element, getting the first
