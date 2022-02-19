@@ -2,9 +2,9 @@
 Contributors: LewisCowles,daronspence
 Tags: frontend,media,streaming,aria,mediaelementjs,html5,video,audio,playback,speed,cd2,lewiscowles,codesign2,shortcode,playlist
 Requires at least: 4.0
-Tested up to: 5.8
+Tested up to: 5.9
 Requires PHP: 7.2
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPL-3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
