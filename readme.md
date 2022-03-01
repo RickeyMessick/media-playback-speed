@@ -27,6 +27,18 @@ Two hooks are provided within this plugin.
 
 * 'media-playback-speed-data' provides the default array containing arrays as items with `rate`, `title` and `label` entries, which set the playback rate, the title and aria-title for the buttons as well as adjust the button text.
 
+Example Code to add to plugin or functions.php
+```
+add_filter('media-playback-speed-data', function($data) {
+        $defaults = array(
+		array('rate'=>0.5,'title'=>__('Playback Speed 0.5x','media-playback-speed'),'label'=>__('.5x','media-playback-speed')),
+		array('rate'=>1.0,'title'=>__('Playback Speed 1x','media-playback-speed'),'label'=>__('1x','media-playback-speed')),
+	);
+		return $defaults;
+
+});
+```
+
 #### Theme & Front-end
 
 The `.playback-rate-button.mejs-active` and/or `.playback-rate-button.active-playback-rate` CSS-selectors allow you to style the active speed (per-player).
